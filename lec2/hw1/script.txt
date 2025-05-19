@@ -1,0 +1,4 @@
+/opt/lab/lab1/lab1_v0.cpp
+
+baseline: 1.8 sec
+優化這個程式碼

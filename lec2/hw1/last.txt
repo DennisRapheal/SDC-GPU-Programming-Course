@@ -1,0 +1,16 @@
+OMP threads = 12
+初始化 vector 時間: 0.019691 秒
+初始化 velocity, pressure, energy 時間: 0.00329995 秒
+複雜運算（sin, log, fabs）時間: 0.00563979 秒
+二維網格運算時間: 0.000276089 秒
+criticalFlux 計算時間: 0.030781 秒
+累加檢查結果時間: 0.002388 秒
+=== result ===
+fieldValue      = 5.53321e+11
+energy[0]       = 1e+07
+Sum(velocity)   = 2.90484e+07
+Sum(pressure)   = 5e+13
+Sum(energy)     = 1e+14
+atomicFlux      = 29.0484
+criticalFlux    = 5.61032e+07
+總執行時間: 0.0621719 秒

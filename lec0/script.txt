@@ -1,0 +1,15 @@
+ssh -p 22000 lintinwei20030906@sdc.club.nycu.edu.tw
+sinfo
+squeue
+
+# submit a interactive job
+salloc -A lintinwei20030906 -p debug -N 1 -n 4 -c 1
+srun echo "Hello Dennis" > output.txt
+
+# submit a batch job
+vim test1.sh
+sbatch test1.sh
+
+# checkout status
+sinfo -> show the NODELIST
+scontrol show node node6 -> show the status

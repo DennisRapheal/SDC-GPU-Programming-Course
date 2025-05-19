@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "plyconfig.json": "jsonc",
+        "iostream": "cpp",
+        "vector": "cpp"
+    }
+}
