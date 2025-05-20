@@ -3,11 +3,11 @@ CFLAGS = -fopenmp -O2 -stdlib=libc++ -L$(shell brew --prefix llvm)/lib
 
 all: my_program
 
-my_program: main.cpp shishua.c
+my_program: main.cpp
 	$(CC) $(CFLAGS) -o my_program main.cpp
 
 run: my_program
-	OMP_DISPLAY_ENV=VERBOSE ./my_program
+	OMP_DISPLAY_ENV=VERBOSE ./my_program 10
 
 clean:
 	rm -f my_program
